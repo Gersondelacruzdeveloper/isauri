@@ -1,0 +1,249 @@
+/* -------------------------------------------------------------------- Variables */
+:root {
+    --concrete:#f2f2f2;
+    --turquoise: #2ec4b6;
+    --black: #000000;
+    --blue: rgba(0, 76, 143, 1);
+    --transparent-black:rgba(0, 0, 3, 0.486);
+    --midnight:#011627;
+    --font:Wotfard,sans-serif;
+    --black-pearl:#07203a;
+}
+
+/* -------------------------------------------------------------------- Resets */
+
+html {
+    width: 100%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/colordefondo.jpg");
+    font-family: var(--font);
+    margin-bottom: 125px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--concrete);
+}
+/* -------------------------------------------------------------------- Hover / Focus */
+
+li a:hover,
+li a:focus {
+    color: var(--turquoise);
+    border-bottom: 2px solid var(--turquoise);
+}
+  
+
+/* -------------------------------------------------------------------- Accessibility */
+
+
+/* -----------------------------------------------------Special paddings/margins/text */
+
+/* -------------------------------------------------------------------- vertical line to simulate moving data */
+
+/* -------------------------------------------------------------------- Header */
+
+
+/* -------------------------------------------------------------------- Home Page */
+
+
+/* -------------------------------------------------------------------- Animation */
+
+@keyframes rotate-log-frame {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+@keyframes progress1{
+    0%{
+        width:20%;
+    }
+    100%{
+        width:95%;
+    }
+}
+        
+@keyframes progress2{
+    0%{
+        width:20%;
+    }
+    100%{
+        width:90%;
+    }
+}
+        
+@keyframes progress3{
+    0%{
+        width:20%;
+    }
+    100%{
+        width:70%;
+    }
+}
+        
+@keyframes progress4{
+    0%{
+        width:20%;
+    }
+    100%{
+        width:89%;
+    }
+}
+        
+@keyframes progress5{
+    0%{
+        width:20%;
+    }
+    100%{
+        width:98%;
+    }
+}
+
+
+@keyframes move-title-text {
+    0%{
+        left:300px
+
+    }
+
+    100%{
+        left:0px;
+    }
+}
+        
+        
+@keyframes move-link {
+    0%{
+        left:300px
+
+    }
+
+    100%{
+        left:0px;
+        border:2px solid var(--turquoise);
+        padding:10px;
+    }
+}
+
+@keyframes change-btn-form-color {
+    0%{
+        border:5px solid var(--midnight);
+    }
+    100%{
+        border:5px solid var(--turquoise);
+    }
+}
+
+@keyframes drop-inline-movement {
+    0%{
+        top:0;
+    }
+    100%{
+        top:100%;
+    }
+            
+}
+
+@keyframes typing {
+    0% {
+        width: 0;
+        color:var(--midnight);
+      }
+}
+@keyframes blink {
+    50% {
+        border-color: transparent;
+        border-right: 3px solid;
+      }
+}
+        
+        
+/* -------------------------------------------------------------------- Footer */
+
+
+/* -------------------------------------------------------------------- Media queries */
+
+/* large devices (laptops and desktops, from 1374px to 1025px)*/
+@media only screen and (max-width: 1374px) {
+
+}
+
+/* Medium devices (landscape tablets, from 1025px to 768px) */
+@media only screen and (max-width: 1025px) {
+
+}
+
+/* Small devices (phones, 768px and down) */
+@media only screen and (max-width: 768px) {
+    
+/* -------------------------------------------------------------------- Header */
+#logo{
+    border-radius: 50%;
+    width: 100px;
+    height:100px;
+    margin:10% auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#logo img{
+    border-radius: 50%;
+}
+#photo{
+    width: 50%;
+    height:auto;
+    margin:10% auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.intro-container{
+    margin:auto;
+    width:80%;
+    text-align: justify;
+}
+
+
+#instagram,
+#ticktock,
+#whatsapp{
+padding:10px;
+background-color: lightgrey;  
+margin:5px;  
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+text-align:center;
+}
+
+
+#instagram img{
+    font-size: 125px;
+    float: left;
+    margin-top:-15px;
+    width:40px;
+}
+#ticktock img{
+    font-size: 125px;
+    float: left;
+    margin-top:-15px;
+    width:40px;
+}
+#whatsapp img{
+    font-size: 125px;
+    float: left;
+    margin-top:-15px;
+    width:40px;
+}
+
+
+
+}

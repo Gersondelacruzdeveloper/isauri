@@ -14,146 +14,13 @@ html {
 body {
     background-image: url("../images/colordefondo.jpg");
     font-family: var(--font);
-    margin-bottom: 125px;
+    margin-bottom: 10px;
 }
 
 a {
     text-decoration: none;
     color: var(--concrete);
 }
-
-/* -------------------------------------------------------------------- Accessibility */
-
-
-/* -----------------------------------------------------Special paddings/margins/text */
-
-/* -------------------------------------------------------------------- vertical line to simulate moving data */
-
-/* -------------------------------------------------------------------- Header */
-
-
-/* -------------------------------------------------------------------- Home Page */
-
-
-/* -------------------------------------------------------------------- Animation */
-
-@keyframes rotate-log-frame {
-    0%{
-        transform: rotate(0deg);
-    }
-
-    100%{
-        transform: rotate(360deg);
-    }
-}
-
-
-@keyframes progress1{
-    0%{
-        width:20%;
-    }
-    100%{
-        width:95%;
-    }
-}
-        
-@keyframes progress2{
-    0%{
-        width:20%;
-    }
-    100%{
-        width:90%;
-    }
-}
-        
-@keyframes progress3{
-    0%{
-        width:20%;
-    }
-    100%{
-        width:70%;
-    }
-}
-        
-@keyframes progress4{
-    0%{
-        width:20%;
-    }
-    100%{
-        width:89%;
-    }
-}
-        
-@keyframes progress5{
-    0%{
-        width:20%;
-    }
-    100%{
-        width:98%;
-    }
-}
-
-
-@keyframes move-title-text {
-    0%{
-        left:300px
-
-    }
-
-    100%{
-        left:0px;
-    }
-}
-        
-        
-@keyframes move-link {
-    0%{
-        left:300px
-
-    }
-
-    100%{
-        left:0px;
-        border:2px solid var(--turquoise);
-        padding:10px;
-    }
-}
-
-@keyframes change-btn-form-color {
-    0%{
-        border:5px solid var(--midnight);
-    }
-    100%{
-        border:5px solid var(--turquoise);
-    }
-}
-
-@keyframes drop-inline-movement {
-    0%{
-        top:0;
-    }
-    100%{
-        top:100%;
-    }
-            
-}
-
-@keyframes typing {
-    0% {
-        width: 0;
-        color:var(--midnight);
-      }
-}
-@keyframes blink {
-    50% {
-        border-color: transparent;
-        border-right: 3px solid;
-      }
-}
-        
-        
-/* -------------------------------------------------------------------- Footer */
-
 
 /* -------------------------------------------------------------------- Media queries */
 
@@ -215,18 +82,25 @@ text-align:center;
     margin-top:-10px;
     width:40px;
     height:40px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .instagram-btn-container{
     margin-top:30px;
+}
+#instagram:hover,
+#ticktock:hover,
+#whatsapp:hover{
+    background-color: pink;
 }
 
 #video-container{
 margin:auto;
 width:350px;
-margin-top:30px;
-margin-bottom: 200px;
+margin-top:40px;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
+footer p{
+    text-align: center;
+    margin-top: 50px;
+    color:white;
+}
 }
